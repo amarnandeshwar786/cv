@@ -1,0 +1,190 @@
+﻿@media screen and (max-width: 1072px) {
+    .container-fluid .content-scroller .content-wrapper .content {
+        width: 702px;
+    }
+
+    .header-title span, .header-title i span {
+        font-size: 30px;
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+    .brad {
+        display: none;
+    }
+
+    .container-fluid .row .menu .social {
+        text-align: center;
+    }
+
+        .container-fluid .row .menu .social a {
+            display: initial;
+            padding: 10px;
+        }
+}
+
+@media screen and (max-width: 920px) {
+    .container-fluid .row .menu {
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        height: 40px;
+    }
+
+        .container-fluid .row .menu .nav, .container-fluid .row .menu .social, .img-logo {
+            display: none;
+        }
+
+    .brad {
+        display: block;
+    }
+
+    .container-fluid .content-scroller {
+        top: 40px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+    }
+
+        .container-fluid .content-scroller .content-wrapper {
+            width: 100%;
+            height: 100%;
+            float: initial;
+            position: absolute;
+            top: 0px;
+            overflow-x: hidden;
+            overflow-y: scroll;
+        }
+
+            .container-fluid .content-scroller .content-wrapper .content {
+                width: 100%;
+                height: 100%;
+                display: block;
+                padding: 50px;
+            }
+
+    .intro-inner {
+        -webkit-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+        left: 80px;
+        top: 50%;
+    }
+
+    .header-title span, .header-title i span {
+        font-size: 38px;
+    }
+
+    h1 {
+        margin-top: 0px;
+    }
+
+    .mobile-navigation, .mobile-menu-gesture, .circle {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .container-fluid .row .menu {
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        height: 40px;
+    }
+
+    .container-fluid .content-scroller {
+        top: 40px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        overflow-y: scroll;
+    }
+
+        .container-fluid .content-scroller .content-wrapper {
+            width: 100%;
+            height: auto;
+            float: initial;
+            position: absolute;
+            top: 0px;
+            overflow: hidden;
+        }
+
+            .container-fluid .content-scroller .content-wrapper .content {
+                height: auto;
+            }
+
+    .intro-inner {
+        top: 40%;
+        left: 50px;
+    }
+}
+
+
+@media screen and (max-width: 720px) {
+
+    .header-title span, .header-title i span {
+        font-size: 30px;
+    }
+
+    .college {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 626px) {
+
+    .container-fluid .content-scroller .content-wrapper .content {
+        height: auto;
+    }
+
+    .edu-info {
+        width: 100%;
+        height: auto;
+    }
+
+    .edu-logo {
+        width: 100%;
+        height: auto;
+        line-height: 0px;
+        margin: 30px 0px 0px 50px;
+        padding: 0px;
+        text-align:left;
+    }
+
+    .edu-details {
+        height: auto;
+        margin: 0px;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 522px) {
+    .f-name {
+        display: none;
+    }
+
+    .intro-inner {
+        top: 40%;
+        left: 20px;
+    }
+
+    .long {
+        display: none;
+    }
+
+    .sort {
+        display: inline-block;
+        text-transform: unset;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .header-title span, .header-title i span {
+        font-size: 25px;
+    }
+
+    .container-fluid .content-scroller .content-wrapper .content {
+        padding: 50px 20px;
+    }
+}
